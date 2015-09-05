@@ -3,21 +3,21 @@
 ### cp2dirs.csh
 * Copy one directory into another recursively.
 ```sh
-$ cp2dirs.csh <rootin_dir> <destination_dir>
+$ cp2dirs.csh <dir> <destination_dir>
 Example: copy mydir recursively in /tmp/tests
 cp2dirs.csh mydir /tmp/tests 
 ```
 ### dirchk.csh
 * Compare two directories and do size comparisons.
 ```sh
-$ cp2dirs.csh <rootin_dir> <destination_dir>
+$ dirchk.csh <root_dir> <destination_dir>
 Example: Compare recursively two recently copied directories
 dirchk.csh /tmp/mydir /data/mydir
 ```
 ### find-fastq.csh
 * Provide a directory name and recursively list fastq files and sizes.
 ```sh
-$ cp2dirs.csh <rootin_dir> <destination_dir>
+$ find-fastq.csh <dir> 
 Example: Find recursevely all fastq files and files labelled with the fastq string
 find-fastq.csh /tmp/mydir_full_of_fastq
 ```
