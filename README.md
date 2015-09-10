@@ -42,4 +42,8 @@ $ gzip_fastq.csh /tmp/mydir
 Example: Recursively find and compress fastq files
 gzip_fastq.csh /tmp/mydir 
 ```
-
+### rm-empty-dirs.csh ,dir.
+Example: Recursively empty directories
+rm-empty-dirs.csh /tmp/mydir
+Note: if there are multiple layers of empty directories
+      you need to run the script multiple times.
